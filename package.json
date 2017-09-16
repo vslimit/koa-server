@@ -1,0 +1,43 @@
+{
+  "name": "koa-server",
+  "description": "Koa Server",
+  "version": "0.0.1",
+  "repository": "",
+  "bugs": "",
+  "dependencies": {
+    "dotenv": "~4.0.0",
+    "fs-promise": "^2.0.3",
+    "koa": "^2.2.0",
+    "koa-basic-auth": "^2.0.0",
+    "koa-body": "^2.3.0",
+    "koa-bodyparser": "4.2.0",
+    "koa-compose": "^4.0.0",
+    "koa-csrf": "^3.0.6",
+    "koa-logger": "^3.0.0",
+    "koa-router": "^7.2.0",
+    "koa-session": "^5.0.0",
+    "koa-static": "^3.0.0",
+    "koa-views": "^6.0.2",
+    "mysql": "^2.11.1",
+    "node-uuid": "^1.4.8",
+    "sequelize": "^3.24.1",
+    "streaming-json-stringify": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.8.1",
+    "eslint-config-standard": "^6.2.0",
+    "eslint-plugin-promise": "^3.3.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "mocha": "*",
+    "should": "^3.3.2",
+    "supertest": "*"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "make test"
+  },
+  "engines": {
+    "node": ">= 7.6"
+  },
+  "license": "MIT"
+}
